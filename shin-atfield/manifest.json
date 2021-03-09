@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "shin-atfield",
+  "description": "A chrome extension to hide spolers of Evangelion 3.0+1.0",
+  "version": "0.1.0",
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ]
+}

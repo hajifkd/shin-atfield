@@ -1,0 +1,24 @@
+{
+  "name": "shin-atfield",
+  "version": "0.1.0",
+  "description": "A chrome extension to hide spoilers of Evangelion 3.0+1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hajifkd/shin-atfield.git"
+  },
+  "author": "Hajime Fukuda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hajifkd/shin-atfield/issues"
+  },
+  "homepage": "https://github.com/hajifkd/shin-atfield#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.133",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^4.2.3"
+  }
+}
